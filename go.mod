@@ -24,8 +24,8 @@ require (
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/golang-lru v0.5.3 // indirect
 	github.com/imdario/mergo v0.3.7 // indirect
-	github.com/kubeedge/beehive v1.7.0
-	github.com/kubeedge/viaduct v1.7.0
+	github.com/kubeedge/beehive v0.0.0
+	github.com/kubeedge/viaduct v0.0.0
 	github.com/kubernetes-csi/csi-lib-utils v0.6.1
 	github.com/lib/pq v1.2.0 // indirect
 	github.com/mattn/go-sqlite3 v1.11.0
@@ -105,5 +105,5 @@ replace (
 	k8s.io/sample-apiserver v0.0.0 => k8s.io/sample-apiserver v0.21.4
 	k8s.io/utils v0.0.0 => k8s.io/utils v0.21.4
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.22
-	github.com/kubeedge/kubeedge => github.com/shiv-mohith/kubeedge v1.8.2
+	//github.com/kubeedge/kubeedge => github.com/shiv-mohith/kubeedge v1.8.2
 )
