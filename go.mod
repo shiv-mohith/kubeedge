@@ -1,4 +1,4 @@
-module github.com/shiv-mohith/kubeedge
+module github.com/kubeedge/kubeedge
 
 go 1.16
 
@@ -105,5 +105,4 @@ replace (
 	k8s.io/sample-apiserver v0.0.0 => k8s.io/sample-apiserver v0.21.4
 	k8s.io/utils v0.0.0 => k8s.io/utils v0.21.4
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.22
-	github.com/kubeedge/kubeedge => github.com/shiv-mohith/kubeedge v1.8.2
 )
